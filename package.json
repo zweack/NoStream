@@ -1,0 +1,19 @@
+{
+  "name": "nostream",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "^4.16.4",
+    "hbs": "~4.0.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9",
+    "request": "^2.79.0",
+    "serve-favicon": "^2.5.0",
+    "youtube-dl": "^1.11.1"
+  }
+}

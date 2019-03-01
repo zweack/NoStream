@@ -1,0 +1,49 @@
+
+body {
+    font-family: 'Open Sans', 'Lucida Grande', sans-serif;
+}
+
+::-webkit-input-placeholder { 
+  color: rgba(0,0,0,.4)!important;
+}
+::-moz-placeholder {
+   color: rgba(0,0,0,.4)!important;
+}
+:-ms-input-placeholder { 
+   color: rgba(0,0,0,.4)!important;
+}
+
+
+
+.site-head {
+    padding: 1.4rem 2rem;
+    text-align: center;
+    margin-top: 6rem;
+}
+.site-head .title {
+    position: relative;
+    display: inline-block;
+    font-family: 'Bungee Shade', cursive;
+}
+.site-head .title:before {
+    content: "";
+    position: absolute;
+    width: 70px; height: 6px;
+    background: rgba(144, 232, 24, 1);
+    bottom: -10px;
+    left: 6px;
+}
+
+.content-wrap {
+    padding: 1rem;
+}
+.down-form{
+    text-align: center;
+    width:700px;
+}
+.down-form input{
+    border: 1px solid #efefef;
+}
+.down-form input:focus {
+    border-color: rgba(104, 202, 24, .4);
+}
